@@ -8,7 +8,7 @@ sidebar_label: Axios Wrapper
 
 * Build an Axios API that implements a cancellable request caller that can be cancelled by redux sagas.
 * Accepts default Axios options.
-* Returns an object with `{ api, sagaApi }` where `api` is the cancellable axios API, and `sagaAPi` is an abstraction that uses `api` to simplify make API calls using redux sagas ([see below](createapis.md#sagaapi)).
+* Returns an object with `{ api, sagaApi }` where `api` is the cancellable axios API, and `sagaAPi` is an abstraction that uses `api` to simplify make API calls using redux sagas ([see below](#sagaapi)).
 
 Sample usage:
 

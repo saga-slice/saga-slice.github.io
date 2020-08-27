@@ -39,7 +39,7 @@ export default store;
 
 Root saga is a helper that facilitates running all your module's sagas.
 
-Setting up the root reducer should be pretty straightforward and is the same as what you saw in the [Getting Started](../) page:
+Setting up the root reducer should be pretty straightforward and is the same as what you saw in the [Getting Started](/docs/getting-started) page:
 
 ```javascript
 import { createStore, applyMiddleware } from 'redux';

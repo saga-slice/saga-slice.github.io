@@ -6,7 +6,7 @@ sidebar_label: CRUD Slice
 
 ## crudSlice(options) ⇒ `SagaSlice`
 
-This helper implements all the CRUD helpers in this library and instantiates them into a saga slice. Almost identical to the example you saw in [`crudSaga`](crudsaga.md#extended-example), this brings all of these helpers into 1 master helper. The reason for splitting up the helpers and giving access to them is because sometimes you don't want an entire CRUD, or, sometimes you're not following REST standard and want to have more flexibility. That's OK, so we split it up. In the cases where you're following REST and want a quick CRUD saga workflow, you use `crudSlice`
+This helper implements all the CRUD helpers in this library and instantiates them into a saga slice. Almost identical to the example you saw in [`crudSaga`](/docs/helpers/crud-saga#extended-example), this brings all of these helpers into 1 master helper. The reason for splitting up the helpers and giving access to them is because sometimes you don't want an entire CRUD, or, sometimes you're not following REST standard and want to have more flexibility. That's OK, so we split it up. In the cases where you're following REST and want a quick CRUD saga workflow, you use `crudSlice`
 
 **Returns**: `SagaSlice` - A saga slice module
 

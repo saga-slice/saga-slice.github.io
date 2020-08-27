@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'damusix', // Usually your GitHub org/user name.
-  projectName: 'saga-slice', // Usually your repo name.
+  projectName: 'saga-slice.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Saga Slice',
@@ -81,7 +81,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/damusix/saga-slice',
             },
           ],
         },
@@ -99,13 +99,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/damusix/saga-slice.github.io/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/damusix/saga-slice.github.io/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
