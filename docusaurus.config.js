@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'damusix', // Usually your GitHub org/user name.
+  organizationName: 'saga-slice', // Usually your GitHub org/user name.
   projectName: 'saga-slice.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -28,15 +28,10 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/damusix/saga-slice',
+          href: 'https://github.com/saga-slice',
           label: 'Github',
           position: 'right',
-        },
-        {
-          href: 'https://github.com/damusix/saga-slice-helpers',
-          label: 'Github Helpers',
-          position: 'right',
-        },
+        }
       ],
     },
     footer: {
@@ -53,22 +48,9 @@ module.exports = {
               label: 'API',
               to: 'docs/api/create-module',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Helpers',
+              to: 'docs/helpers/getting-started',
             },
           ],
         },
@@ -76,12 +58,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/saga-slice',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/damusix/saga-slice',
+              href: 'https://github.com/saga-slice',
             },
           ],
         },
@@ -99,13 +81,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/damusix/saga-slice.github.io/edit/master/website/',
+            'https://github.com/saga-slice/saga-slice.github.io/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/damusix/saga-slice.github.io/edit/master/website/blog/',
+            'https://github.com/saga-slice/saga-slice.github.io/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

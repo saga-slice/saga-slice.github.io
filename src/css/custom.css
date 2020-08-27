@@ -7,38 +7,32 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #C84E5C;
+  --ifm-color-primary-dark: #AC3543;
+  --ifm-color-primary-darker: #8C2B36;
+  --ifm-color-primary-darkest: #5E1D24;
+  --ifm-color-primary-light: #D4737E;
+  --ifm-color-primary-lighter: #DD929B;
+  --ifm-color-primary-lightest: #E7B1B8;
   --ifm-code-font-size: 95%;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
+  background-color: #361645;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
 
-/*
-$color-primary-0: #FF7D4A;
-$color-primary-1: #FFB89C;
-$color-primary-2: #FF986F;
-$color-primary-3: #FF6325;
-$color-primary-4: #E54100;
+/*  */
+/* CSV */
+/* C84E5C,FACB8E,F1BBD8,8868CA,361645 */
 
-$color-secondary-1-0: #FFAC4A;
-$color-secondary-1-1: #FFD29C;
-$color-secondary-1-2: #FFBD6F;
-$color-secondary-1-3: #FF9B25;
-$color-secondary-1-4: #E57D00;
+/* Array */
+/* ["C84E5C","FACB8E","F1BBD8","8868CA","361645"] */
 
-$color-secondary-2-0: #F1466E;
-$color-secondary-2-1: #F999AF;
-$color-secondary-2-2: #F56A8B;
-$color-secondary-2-3: #ED2251;
-$color-secondary-2-4: #D30031; */
+/* Object */
+/* {"Brick Red":"C84E5C","Gold Crayola":"FACB8E","Cotton Candy":"F1BBD8","Medium Purple":"8868CA","Russian Violet":"361645"} */
+
+/* Extended Array */
+/* [{"name":"Brick Red","hex":"C84E5C","rgb":[200,78,92],"cmyk":[0,61,54,22],"hsb":[353,61,78],"hsl":[353,53,55],"lab":[50,50,18]},{"name":"Gold Crayola","hex":"FACB8E","rgb":[250,203,142],"cmyk":[0,19,43,2],"hsb":[34,43,98],"hsl":[34,92,77],"lab":[84,9,37]},{"name":"Cotton Candy","hex":"F1BBD8","rgb":[241,187,216],"cmyk":[0,22,10,5],"hsb":[328,22,95],"hsl":[328,66,84],"lab":[81,24,-7]},{"name":"Medium Purple","hex":"8868CA","rgb":[136,104,202],"cmyk":[33,49,0,21],"hsb":[260,49,79],"hsl":[260,48,60],"lab":[51,34,-47]},{"name":"Russian Violet","hex":"361645","rgb":[54,22,69],"cmyk":[22,68,0,73],"hsb":[281,68,27],"hsl":[281,52,18],"lab":[14,25,-23]}] */

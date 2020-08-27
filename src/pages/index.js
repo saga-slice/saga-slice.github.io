@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Reduced Boilerplate</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/boxes.svg',
     description: (
       <>
         No more touching 4 files to modify 1 thing.
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Write Cleaner Code</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/code.svg',
     description: (
       <>
         Regular redux switch statements can get messy.
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>Immutability</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/copy.svg',
     description: (
       <>
         Uses Immer to produce new states so you can modify your state
@@ -45,7 +45,7 @@ function Feature({imageUrl, title, description}) {
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <img className={styles.featureImage} src={imgUrl} alt={title} width={100} />
         </div>
       )}
       <h3>{title}</h3>
@@ -59,8 +59,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={"Redux and Sagas made easy"}
+      description="A simple abstraction intended to dramatically reduce boilerplate.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
