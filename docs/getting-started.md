@@ -68,7 +68,7 @@ const sagaSlice =  createModule({
     sagas: (A) => ({
         *[A.fetch]({ payload }) {
             try {
-                const { data } = yield.axios.get('/todos');
+                const { data } = yield axios.get('/todos');
                 yield put(A.fetchSuccess(data));
             }
             catch (e) {
@@ -79,7 +79,7 @@ const sagaSlice =  createModule({
 });
 
 // Export actions for convenience when importing from other modules
-export const { actions } = sagaSlice;
+export const actions = sagaSlice.actions;
 export default sagaSlice;
 ```
 
